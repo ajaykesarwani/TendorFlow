@@ -4,7 +4,7 @@ from groq_client import LLMClient
 
 st.set_page_config(page_title="Tender Flow", page_icon="📄", layout="wide")
 
-xml_file_path = "C:\\Users\\Ajay\\Desktop\\Freiheit\\Tendor\\app\\resources\\data.xml"
+xml_file_path = "./app/resources/data.xml"
 root = XMLParser.parse_xml(xml_file_path)
 values = XMLParser.extract_values(root) if root else None
 llm = LLMClient()
