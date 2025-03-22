@@ -13,22 +13,22 @@ TenderFlow is a powerful tool designed to extract, parse, and analyze government
 
 ### 1️⃣ Clone the Repository
 bash
-git clone https://github.com/yourusername/tenderflow.git
-cd tenderflow
+  git clone https://github.com/yourusername/tenderflow.git
+  cd tenderflow
 
 
 ### 2️⃣ Install Dependencies
 bash
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 3️⃣ Configure API Keys
 Create a .env file in the project root and add:
 bash
-GROQ_API_KEY=your_api_key_here
+  GROQ_API_KEY=your_api_key_here
 
 4️⃣ Run the Application
 bash 
-streamlit run app.py
+  streamlit run app.py
 
 🛠️ Project Structure
 
