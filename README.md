@@ -44,15 +44,15 @@ streamlit run app.py
 🔍 Example Usage
 Upon running the application, the parsed XML data will be displayed with details such as:
 
-Tender Title
+- **Tender Title**
 
-Publication Date
+- **Publication Date**
 
-Submission Deadline
+- **Submission Deadline**
 
-Location & Address
+- **Location & Address**
 
-CPV Codes
+- **CPV Codes**
 
 Tender Description
 
