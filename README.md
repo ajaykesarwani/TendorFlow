@@ -30,7 +30,7 @@ GROQ_API_KEY=your_api_key_here
 ```bash 
 streamlit run app.py
 ```
-##🛠️ Project Structure
+## 🛠️ Project Structure
 ```graphql
 ├── app.py               # Main Streamlit application
 ├── xml_parser.py        # XML parsing and data extraction
@@ -41,7 +41,7 @@ streamlit run app.py
 ├── .env.example         # Sample environment variable file
 └── README.md            # Project documentation
 ```
-##🔍 Example Usage
+## 🔍 Example Usage
 Upon running the application, the parsed XML data will be displayed with details such as:
 
 - **Tender Title**
