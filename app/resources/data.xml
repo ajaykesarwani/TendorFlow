@@ -1,0 +1,532 @@
+<ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<efext:EformsExtension>
+<efac:NoticeSubType>
+<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+</efac:NoticeSubType>
+<efac:Organizations>
+<efac:Organization>
+<efac:Company>
+<cac:PartyIdentification>
+<cbc:ID>ORG-0001</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name languageID="DEU">Stadtwerke Lübeck Innovation GmbH</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>Geniner Str. 80</cbc:StreetName>
+<cbc:CityName>Lübeck</cbc:CityName>
+<cbc:PostalZone>23560</cbc:PostalZone>
+<cbc:CountrySubentityCode listName="nuts-lvl3">DEF03</cbc:CountrySubentityCode>
+<cac:Country>
+<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+<cbc:CompanyID>DE321644874</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+<cbc:Name>Herr Eugen Eckhardt</cbc:Name>
+<cbc:Telephone>+49451888-1425</cbc:Telephone>
+<cbc:ElectronicMail>eugen.eckhardt@travenetz.de</cbc:ElectronicMail>
+</cac:Contact>
+</efac:Company>
+</efac:Organization>
+<efac:Organization>
+<efac:Company>
+<cac:PartyIdentification>
+<cbc:ID>ORG-0002</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name languageID="DEU">Vergabekammer Schleswig-Holstein beim Ministerium für Wirtschaft, Verkehr, Arbeit, Technologie und Tourismus</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>Düsternbrooker Weg 9</cbc:StreetName>
+<cbc:CityName>Kiel</cbc:CityName>
+<cbc:PostalZone>24105</cbc:PostalZone>
+<cbc:CountrySubentityCode listName="nuts-lvl3">DEF02</cbc:CountrySubentityCode>
+<cac:Country>
+<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+<cbc:CompanyID>---</cbc:CompanyID>
+</cac:PartyLegalEntity>
+<cac:Contact>
+<cbc:Telephone>+494319884640</cbc:Telephone>
+<cbc:ElectronicMail>Vergabekammer@wimi.landsh.de</cbc:ElectronicMail>
+</cac:Contact>
+</efac:Company>
+</efac:Organization>
+</efac:Organizations>
+</efext:EformsExtension>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+<cbc:CustomizationID>eforms-de-1.1</cbc:CustomizationID>
+<cbc:ID schemeName="notice-id">000d1510-d664-4094-9bad-009d2643fc67</cbc:ID>
+<cbc:ContractFolderID>dee0a41c-34cf-43e6-9990-dcec3d16269a</cbc:ContractFolderID>
+<cbc:IssueDate>2023-12-08+01:00</cbc:IssueDate>
+<cbc:IssueTime>09:11:30+01:00</cbc:IssueTime>
+<cbc:VersionID>01</cbc:VersionID>
+<cbc:RequestedPublicationDate>2023-12-08+01:00</cbc:RequestedPublicationDate>
+<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+<cac:ContractingParty>
+<cac:ContractingPartyType>
+<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+</cac:ContractingPartyType>
+<cac:ContractingActivity>
+<cbc:ActivityTypeCode listName="authority-activity">econ-aff</cbc:ActivityTypeCode>
+</cac:ContractingActivity>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID>ORG-0001</cbc:ID>
+</cac:PartyIdentification>
+</cac:Party>
+</cac:ContractingParty>
+<cac:TenderingTerms>
+<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+<cac:RequiredFinancialGuarantee>
+<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+</cac:RequiredFinancialGuarantee>
+<cac:ProcurementLegislationDocumentReference>
+<cbc:ID>vgv</cbc:ID>
+</cac:ProcurementLegislationDocumentReference>
+<cac:CallForTendersDocumentReference>
+<cbc:ID>SomeTenderDocID1</cbc:ID>
+<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+<cbc:LanguageID>DEU</cbc:LanguageID>
+</cac:CallForTendersDocumentReference>
+<cac:PaymentTerms>
+<cbc:Note languageID="DEU">gem. Verdingungsunterlagen</cbc:Note>
+</cac:PaymentTerms>
+<cac:TendererQualificationRequest>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+</cac:SpecificTendererRequirement>
+</cac:TendererQualificationRequest>
+<cac:ContractExecutionRequirement>
+<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+</cac:ContractExecutionRequirement>
+<cac:ContractExecutionRequirement>
+<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+</cac:ContractExecutionRequirement>
+<cac:TenderRecipientParty>
+<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4YFYH688</cbc:EndpointID>
+</cac:TenderRecipientParty>
+<cac:TenderValidityPeriod>
+<cbc:DurationMeasure unitCode="MONTHS">3</cbc:DurationMeasure>
+</cac:TenderValidityPeriod>
+<cac:AppealTerms>
+<cac:PresentationPeriod>
+<cbc:Description languageID="DEU">Die Vergabekammer leitet gem. § 160 GWB ein Nachprüfungsverfahren nur auf Antrag ein. Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. Der Antrag ist unzulässig, soweit: 1) der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2) Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3) Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4) mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 GWB bleibt unberührt.</cbc:Description>
+</cac:PresentationPeriod>
+<cac:AppealReceiverParty>
+<cac:PartyIdentification>
+<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+</cac:PartyIdentification>
+</cac:AppealReceiverParty>
+</cac:AppealTerms>
+<cac:Language>
+<cbc:ID>DEU</cbc:ID>
+</cac:Language>
+</cac:TenderingTerms>
+<cac:TenderingProcess>
+<cbc:ProcedureCode listName="">open</cbc:ProcedureCode>
+<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4YFYH688</cbc:AccessToolsURI>
+<cac:TenderSubmissionDeadlinePeriod>
+<cbc:EndDate>2024-01-15+01:00</cbc:EndDate>
+<cbc:EndTime>13:00:00+01:00</cbc:EndTime>
+</cac:TenderSubmissionDeadlinePeriod>
+<cac:OpenTenderEvent>
+<cbc:OccurrenceDate>2024-01-15+01:00</cbc:OccurrenceDate>
+<cbc:OccurrenceTime>13:15:00+01:00</cbc:OccurrenceTime>
+<cbc:Description languageID="DEU">Für die Öffnung der Angebote sind Herr Nils Retzlaff (Leiter Einkauf) und Herr Eugen Eckhardt (Stv. Leiter Einkauf) zuständig.</cbc:Description>
+<cac:OccurenceLocation>
+<cbc:Description languageID="DEU">Die Angebotsöffnung erfolgt digital im Vergabeportal am 15.01.2024.</cbc:Description>
+</cac:OccurenceLocation>
+</cac:OpenTenderEvent>
+<cac:OpenTenderEvent>
+<cbc:OccurrenceDate>2024-01-15+01:00</cbc:OccurrenceDate>
+<cbc:OccurrenceTime>13:15:00+01:00</cbc:OccurrenceTime>
+<cbc:Description languageID="DEU">Für die Öffnung der Angebote sind Herr Nils Retzlaff (Leiter Einkauf) und Herr Eugen Eckhardt (Stv. Leiter Einkauf) zuständig.</cbc:Description>
+<cac:OccurenceLocation>
+<cbc:Description languageID="DEU">Die Angebotsöffnung erfolgt digital im Vergabeportal am 15.01.2024.</cbc:Description>
+</cac:OccurenceLocation>
+</cac:OpenTenderEvent>
+<cac:AuctionTerms>
+<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+</cac:AuctionTerms>
+</cac:TenderingProcess>
+<cac:ProcurementProject>
+<cbc:Name languageID="DEU">Planungsleistungen für Errichtung eines Maschennetzes und Sondenanlagen</cbc:Name>
+<cbc:Description languageID="DEU">Die Hansestadt Lübeck beabsichtigt die Errichtung eines neuen Wohnquartiers an der Schlutuper Straße in Lübeck, das "Lauerhofer Feld". In dem Neubaugebiet sind 409 Wohneinheiten, eine Kindertagesstätte (Kita) und ein Palliativzentrum geplant. Für die Wärmeversorgung ist ein kaltes Nahwärmenetz mit Erdwärmesonden und dezentralen Wärmepumpen in den Gebäuden geplant. Die Stadtwerke Lübeck Innovation GmbH wurde mit der Planung und der späteren Umsetzung der Wärmeversorgung beauftragt. - Die Gewinnung der Erdwärme ist über Sondenfelder geplant, welche aus insgesamt 135 Sonden mit je 170 m Tiefe bestehen sowie einem Flächenkollektor als Leitungsnetz mit ca. 3.200 Trassenmeter in den Straßenzügen des Neubauquartieres. Nach Fertigstellung ist ein Betrieb der Anlage mit dezentralen Wärmepumpen zur Wärmeversorgung der Gebäude vorgesehen. Im Wesentlichen handelt es sich um ein kaltes Nahwärmenetz, das mit Temperaturen von 0-15°C im Warmleiter und mit -3-8°C im Kaltleiter betrieben wird. Jede Verbrauchsstelle entzieht dem Warmleiter während der Heizperiode Wärme und transformiert in einer Wärmepumpenstation die Wärme auf die gewünschte Ziel-Temperatur für die Gebäudeheizung und die Warmwasserbereitstellung.</cbc:Description>
+<cbc:ProcurementTypeCode listName="">services</cbc:ProcurementTypeCode>
+<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXP4YFYH688 Der Auftraggeber behält sich das Recht vor, nach der Angebotsabgabe technische Aufklärungsgespräche zu führen.</cbc:Note>
+<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+<cac:MainCommodityClassification>
+<cbc:ItemClassificationCode listName="cpv">71321000</cbc:ItemClassificationCode>
+</cac:MainCommodityClassification>
+<cac:AdditionalCommodityClassification>
+<cbc:ItemClassificationCode listName="cpv">71356400</cbc:ItemClassificationCode>
+</cac:AdditionalCommodityClassification>
+<cac:RealizedLocation>
+<cac:Address>
+<cbc:StreetName>Stadtwerke Lübeck Innovation GmbH</cbc:StreetName>
+<cbc:AdditionalStreetName>Geniner Str. 80</cbc:AdditionalStreetName>
+<cbc:CityName>Lübeck</cbc:CityName>
+<cbc:PostalZone>23560</cbc:PostalZone>
+<cbc:CountrySubentityCode listName="nuts">DEF03</cbc:CountrySubentityCode>
+<cbc:Region>anyw-cou</cbc:Region>
+<cac:Country>
+<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+</cac:Country>
+</cac:Address>
+</cac:RealizedLocation>
+<cac:ContractExtension>
+<cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+<cac:Renewal>
+<cac:Period>
+<cbc:Description languageID="DEU">Die Planungsleistungen sollen voraussichtlich im 1. und 2. Quartal 2024 ausgeführt werden. Sollten sich Abweichungen in dem geplanten Projektzeitraum ergeben, kann die Laufzeit des Vertrages verlängert werden. Abweichungen der geplanten Ausführungszeiträume sind im Angebot zu erläutern.</cbc:Description>
+</cac:Period>
+</cac:Renewal>
+</cac:ContractExtension>
+</cac:ProcurementProject>
+<cac:ProcurementProjectLot>
+<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+<cac:TenderingTerms>
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<efext:EformsExtension>
+<efac:SelectionCriteria>
+<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+<cbc:Description languageID="DEU">Bei der Bewerbung sind die hier angegebenen Unterlagen vollständig mit einzureichen! Dies gilt auch für die abgeforderten Unterlagen/Nachweise/Erklärungen. Teilnahmeanträge, die nicht die geforderten Unterlagen, Erklärungen und Nachweise komplett enthalten, werden nicht berücksichtigt. Die Unterlagen, Erklärungen und Nachweise sind zwingend vorzulegen, ein Verweis auf frühere Bewerbungen wird nicht akzeptiert. Der Teilnahmeantrag ist in Textform nach § 126b BGB und elektronisch über die Vergabeplattform unter https://www.dtvp.de/ abzugeben. Die Erklärungen und Nachweise sollen in der angegebenen Reihenfolge (1) - (16) zusammengefasst werden und als Ganzes, bestenfalls durchnummeriertes Dokument abgegeben werden. Als vorläufiger Eignungsnachweis wird zudem die Einheitliche Europäische Eigenerklärung (EEE) akzeptiert, soweit diese die nachfolgenden Erklärungen und Nachweise umfasst. Von ausländischen Bietern sind gleichwertige Bescheinigungen ihres Herkunftslandes einzureichen. - WICHTIG: Soweit die Aktualität der Eigenerklärung bzw. des Eignungsnachweises gefordert wird, bedeutet dies, dass die Erklärung bzw. der Nachweis nicht älter als 6 Monate oder mindestens noch 6 Monate gültig zu sein hat. - 1. Vorlage eines aktuellen Handelsregisterauszuges oder einer gleichwertigen Urkunde oder Bescheinigung einer zuständigen Verwaltungsbehörde oder eines Gerichts des Herkunftslandes des Bewerbers, soweit aufgrund der Unternehmensform eine Eintragung vorgesehen ist. 2. Vorlage eines aktuellen Gewerbezentralregisterauszugs oder einer gleichwertigen Urkunde oder Bescheinigung einer zuständigen Verwaltungsbehörde oder eines Gerichts des Herkunftslandes des Bewerbers, soweit aufgrund der Unternehmensform eine Eintragung vorgesehen ist. 3. Eigenerklärungen, dass keine zwingenden Ausschlussgründe nach § 123 Abs. 1 und Abs. 4 GWB und keine fakultativen Ausschlussgründe gemäß § 124 Abs. 1 GWB vorliegen sowie keine Ausschlussgründe nach §§ 19,21 MiLoG, § 21 Abs. 1 Satz 1 oder 2 SchwarzArbG und § 21 Abs. 1 i.V.m. § 23 AEntG vorliegen. Ein vorgefertigtes Formular der Eigenerklärung kann beim oben genannten kaufmännischen Ansprechpartner angefordert werden. Das Formular steht alternativ im Projektraum dieser Ausschreibung auf der Vergabeplattform dtvp bereit, der Link ist der Veröffentlichung zu entnehmen. Bitte beachten Sie: Das Formular zur Eigenerklärung ist zwingend vom Teilnehmer vor Abgabe des Teilnahmeantrages anzufordern bzw. von der Plattform herunter zu laden. 4. Eigenerklärung, dass gem. Artikel 5k der Verordnung (EU) Nr. 833/2014 in der Fassung des Art. 1 Ziff. 23 der Verordnung (EU) 2022/576 des Rates vom 8. April 2022 kein Russlandbezug besteht. 5. Erklärung zu Paragraf 4 VGSH</cbc:Description>
+</efac:SelectionCriteria>
+<efac:SelectionCriteria>
+<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+<cbc:Description languageID="DEU">6. Aktuelle Unbedenklichkeitsbescheinigung des Finanzamtes. 7. Aktuelle Unbedenklichkeitsbescheinigung der Berufsgenossenschaft. 8. Bescheinigung über Betriebs-/Berufshaftpflichtversicherung (Gültigkeit mind. für das laufende Kalenderjahr). 9. GuV-Rechnungen der letzten abgeschlossenen 3 Geschäftsjahre, soweit das Unternehmen bereits solange besteht. Ansonsten ist zu erklären, seit wann das Unternehmen besteht und es sind die GuV-Rechnungen aus den Jahren des Bestehens des Unternehmens vorzulegen. 10. Umsatz mind. aus den letzten 3 abgeschlossenen Geschäftsjahren mit vergleichbaren Aufträgen.</cbc:Description>
+</efac:SelectionCriteria>
+<efac:SelectionCriteria>
+<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+<cbc:Description languageID="DEU">11. Angabe der Gesamtzahl der durchschnittlich fest angestellten Mitarbeiter und die Zahl der Führungskräfte in den letzten drei abgeschlossenen Geschäftsjahren, gegliedert nach Qualifikationsprofil. 12. Für dieses Projekt geplantes Personal (Anzahl) inkl. Qualifikationsprofil zentraler Mitarbeiter (Projektleiter/Teilprojektleiter) unter Angabe persönlicher Referenzen 13. Vorlage einer rechtsverbindlich ausgefüllten Eigenerklärung zur Projektkommunikation in deutscher Sprache. Außerdem ist der Bewerber/Bieter verpflichtet, die Einhaltung dieser Anforderungen auch an seine Unterauftragnehmer weiterzugeben. 14. Unternehmensbeschreibung unter Berücksichtigung des ausgeschriebenen Leistungsgegenstandes (max. 5 Seiten DIN A4) 15. Nachweis von Referenzen (mind. 3 Referenzkunden vergleichbar in Art, Branche, und Umfang, Größe der Unternehmen mit dem Schwerpunkt Planung und Bauüberwachung im Schwerpunkten Maschennetz und Sondenanlagen) 16. Nachweis einer Zertifizierung nach DIN ISO 9001 oder vergleichbare Nachweise (z.B. Qualitätsleitfäden, Q-Handbücher, woraus zu erkennen ist, dass ein Qualitätsmanagement im Unternehmen nachverfolgt wird).</cbc:Description>
+</efac:SelectionCriteria>
+<efac:StrategicProcurement>
+<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+</efac:StrategicProcurement>
+</efext:EformsExtension>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:VariantConstraintCode listName="permission">allowed</cbc:VariantConstraintCode>
+<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+<cac:RequiredFinancialGuarantee>
+<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+</cac:RequiredFinancialGuarantee>
+<cac:ProcurementLegislationDocumentReference>
+<cbc:ID>vgv</cbc:ID>
+</cac:ProcurementLegislationDocumentReference>
+<cac:CallForTendersDocumentReference>
+<cbc:ID>SomeTenderDocID1</cbc:ID>
+<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+<cbc:LanguageID>DEU</cbc:LanguageID>
+<cac:Attachment>
+<cac:ExternalReference>
+<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4YFYH688/documents</cbc:URI>
+</cac:ExternalReference>
+</cac:Attachment>
+</cac:CallForTendersDocumentReference>
+<cac:PaymentTerms>
+<cbc:Note languageID="DEU">gem. Verdingungsunterlagen</cbc:Note>
+</cac:PaymentTerms>
+<cac:TendererQualificationRequest>
+<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+</cac:TendererQualificationRequest>
+<cac:TendererQualificationRequest>
+<cac:SpecificTendererRequirement>
+<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+<cbc:Description languageID="DEU">Der Auftraggeber behält sich das Recht zur Nachforderung von fehlenden oder unvollständigen Unterlagen vor.</cbc:Description>
+</cac:SpecificTendererRequirement>
+</cac:TendererQualificationRequest>
+<cac:ContractExecutionRequirement>
+<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+</cac:ContractExecutionRequirement>
+<cac:ContractExecutionRequirement>
+<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+</cac:ContractExecutionRequirement>
+<cac:ContractExecutionRequirement>
+<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+</cac:ContractExecutionRequirement>
+<cac:ContractExecutionRequirement>
+<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+<cbc:Description languageID="DEU">---</cbc:Description>
+</cac:ContractExecutionRequirement>
+<cac:AwardingTerms>
+<cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
+<cac:AwardingCriterion>
+<cac:SubordinateAwardingCriterion>
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<efext:EformsExtension>
+<efac:AwardCriterionParameter>
+<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+<efbc:ParameterNumeric>60.0</efbc:ParameterNumeric>
+</efac:AwardCriterionParameter>
+</efext:EformsExtension>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+<cbc:Name languageID="DEU">Gesamtkosten in EUR (relativ zum Wettbewerb)</cbc:Name>
+</cac:SubordinateAwardingCriterion>
+<cac:SubordinateAwardingCriterion>
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<efext:EformsExtension>
+<efac:AwardCriterionParameter>
+<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+<efbc:ParameterNumeric>15.0</efbc:ParameterNumeric>
+</efac:AwardCriterionParameter>
+</efext:EformsExtension>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+<cbc:Name languageID="DEU">Präsentation beim AG inkl. Projektansatz und Methodik</cbc:Name>
+</cac:SubordinateAwardingCriterion>
+<cac:SubordinateAwardingCriterion>
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<efext:EformsExtension>
+<efac:AwardCriterionParameter>
+<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+<efbc:ParameterNumeric>20.0</efbc:ParameterNumeric>
+</efac:AwardCriterionParameter>
+</efext:EformsExtension>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+<cbc:Name languageID="DEU">Zeitplan</cbc:Name>
+</cac:SubordinateAwardingCriterion>
+<cac:SubordinateAwardingCriterion>
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<efext:EformsExtension>
+<efac:AwardCriterionParameter>
+<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+<efbc:ParameterNumeric>5.0</efbc:ParameterNumeric>
+</efac:AwardCriterionParameter>
+</efext:EformsExtension>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+<cbc:Name languageID="DEU">Reaktionszeiten für kurzfristige Vor-Ort-Termine</cbc:Name>
+</cac:SubordinateAwardingCriterion>
+</cac:AwardingCriterion>
+</cac:AwardingTerms>
+<cac:AdditionalInformationParty>
+<cac:PartyIdentification>
+<cbc:ID>ORG-0001</cbc:ID>
+</cac:PartyIdentification>
+</cac:AdditionalInformationParty>
+<cac:TenderRecipientParty>
+<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4YFYH688</cbc:EndpointID>
+</cac:TenderRecipientParty>
+<cac:TenderValidityPeriod>
+<cbc:DurationMeasure unitCode="MONTHS">3</cbc:DurationMeasure>
+</cac:TenderValidityPeriod>
+<cac:AppealTerms>
+<cac:PresentationPeriod>
+<cbc:Description languageID="DEU">Die Vergabekammer leitet gem. § 160 GWB ein Nachprüfungsverfahren nur auf Antrag ein. Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. Der Antrag ist unzulässig, soweit: 1) der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2) Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3) Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4) mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 GWB bleibt unberührt.</cbc:Description>
+</cac:PresentationPeriod>
+<cac:AppealReceiverParty>
+<cac:PartyIdentification>
+<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+</cac:PartyIdentification>
+</cac:AppealReceiverParty>
+</cac:AppealTerms>
+<cac:Language>
+<cbc:ID>DEU</cbc:ID>
+</cac:Language>
+<cac:PostAwardProcess>
+<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+</cac:PostAwardProcess>
+</cac:TenderingTerms>
+<cac:TenderingProcess>
+<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4YFYH688</cbc:AccessToolsURI>
+<cac:TenderSubmissionDeadlinePeriod>
+<cbc:EndDate>2024-01-15+01:00</cbc:EndDate>
+<cbc:EndTime>13:00:00+01:00</cbc:EndTime>
+</cac:TenderSubmissionDeadlinePeriod>
+<cac:OpenTenderEvent>
+<cbc:OccurrenceDate>2024-01-15+01:00</cbc:OccurrenceDate>
+<cbc:OccurrenceTime>13:15:00+01:00</cbc:OccurrenceTime>
+<cbc:Description languageID="DEU">Für die Öffnung der Angebote sind Herr Nils Retzlaff (Leiter Einkauf) und Herr Eugen Eckhardt (Stv. Leiter Einkauf) zuständig.</cbc:Description>
+<cac:OccurenceLocation>
+<cbc:Description languageID="DEU">Die Angebotsöffnung erfolgt digital im Vergabeportal am 15.01.2024.</cbc:Description>
+</cac:OccurenceLocation>
+</cac:OpenTenderEvent>
+<cac:OpenTenderEvent>
+<cbc:OccurrenceDate>2024-01-15+01:00</cbc:OccurrenceDate>
+<cbc:OccurrenceTime>13:15:00+01:00</cbc:OccurrenceTime>
+<cbc:Description languageID="DEU">Für die Öffnung der Angebote sind Herr Nils Retzlaff (Leiter Einkauf) und Herr Eugen Eckhardt (Stv. Leiter Einkauf) zuständig.</cbc:Description>
+<cac:OccurenceLocation>
+<cbc:Description languageID="DEU">Die Angebotsöffnung erfolgt digital im Vergabeportal am 15.01.2024.</cbc:Description>
+</cac:OccurenceLocation>
+</cac:OpenTenderEvent>
+<cac:AuctionTerms>
+<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+</cac:AuctionTerms>
+<cac:ContractingSystem>
+<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+</cac:ContractingSystem>
+<cac:ContractingSystem>
+<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+</cac:ContractingSystem>
+</cac:TenderingProcess>
+<cac:ProcurementProject>
+<cbc:ID schemeName="internalID">#1</cbc:ID>
+<cbc:Name languageID="DEU">Planungsleistungen für Errichtung eines Maschennetzes und Sondenanlagen</cbc:Name>
+<cbc:Description languageID="DEU">Ziel der Ausschreibung von Stadtwerke Lübeck Innovation GmbH ist die Vergabe der Planungsleistungen nach Leistungsbild Ingenieurbauwerke gem. §44 HOAI für das Maschennetz und die Sondenanlage, angelehnt oder nach HOAI 5-9. - Die Leistungsphasen angelehnt an die HOAI-Phasen 1-4 beider Leistungsbilder wurden bereits erbracht. Die Bieter werden aufgefordert, basierend auf den Planungsergebnissen die HOAI-Phasen 5-9 für die Planung folgender Maßnahmen anzubieten: 1. Auslegung und Errichtung des Maschennetzes und der Sondenanlagen ohne Erdbauarbeiten. Leistungsgrenze bilden hier die einzelnen Hausein-führungen. 2. Auslegung und Errichtung der Einbauteile Druckhaltung, Entgasung, Zirkulationspumpe und Nachspeisung in einer (temporären) Technikzentrale - Weitere Details sind der beigefügten Projektbeschreibung zu entnehmen.</cbc:Description>
+<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+<cbc:Note languageID="DEU">Alle Bieter haben die im Bereich "Teilnahmebedingungen" definierten Eignungsnachweise im aktuellen Umfang vollständig zu erbringen. Angebote, die keine vollständigen Eignungsnachweise beinhalten, werden von der Angebotswertung ausgeschlossen.</cbc:Note>
+<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+<cac:ProcurementAdditionalType>
+<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+</cac:ProcurementAdditionalType>
+<cac:MainCommodityClassification>
+<cbc:ItemClassificationCode listName="cpv">71321000</cbc:ItemClassificationCode>
+</cac:MainCommodityClassification>
+<cac:AdditionalCommodityClassification>
+<cbc:ItemClassificationCode listName="cpv">71356400</cbc:ItemClassificationCode>
+</cac:AdditionalCommodityClassification>
+<cac:RealizedLocation>
+<cac:Address>
+<cbc:StreetName>Stadtwerke Lübeck Innovation GmbH</cbc:StreetName>
+<cbc:AdditionalStreetName>Geniner Str. 80</cbc:AdditionalStreetName>
+<cbc:CityName>Lübeck</cbc:CityName>
+<cbc:PostalZone>23560</cbc:PostalZone>
+<cbc:CountrySubentityCode listName="nuts">DEF03</cbc:CountrySubentityCode>
+<cbc:Region>anyw-cou</cbc:Region>
+<cac:Country>
+<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+</cac:Country>
+</cac:Address>
+</cac:RealizedLocation>
+<cac:ContractExtension>
+<cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+<cac:Renewal>
+<cac:Period>
+<cbc:Description languageID="DEU">Die Planungsleistungen sollen voraussichtlich im 1. und 2. Quartal 2024 ausgeführt werden. Sollten sich Abweichungen in dem geplanten Projektzeitraum ergeben, kann die Laufzeit des Vertrages verlängert werden. Abweichungen der geplanten Ausführungszeiträume sind im Angebot zu erläutern.</cbc:Description>
+</cac:Period>
+</cac:Renewal>
+</cac:ContractExtension>
+</cac:ProcurementProject>
+</cac:ProcurementProjectLot>
+</ContractNotice>
