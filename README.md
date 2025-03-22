@@ -58,7 +58,7 @@ Upon running the application, the parsed XML data will be displayed with details
 
 Users can also interact with the LLM-powered Q&A feature to extract insights from the parsed data.
 
-##⚠️ Handling Missing Data
+## ⚠️ Handling Missing Data
 If the requested information is missing from the XML file, the system will return:
 
 - **"N/A" or "Insufficient data available" instead of blank responses.**
