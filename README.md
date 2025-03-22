@@ -1,6 +1,6 @@
 # 📄 TenderFlow - Government Tender Data Extraction & Analysis
 
-TenderFlow is a powerful tool designed to extract, parse, and analyze government tender data obtained via the [Swagger UI Interface](https://oeffentlichevergabe.de/documentation/swagger-ui/opendata/index.html#/opendata/getExportAsEforms). The application processes XML data containing published tender notices and presents the extracted information in a clean and structured GUI built with Streamlit.
+TenderFlow is a powerful tool designed to extract, parse, and analyze government tender data obtained via the [Interface](https://oeffentlichevergabe.de/documentation/swagger-ui/opendata/index.html#/opendata/getExportAsEforms). The application processes XML data containing published tender notices and presents the extracted information in a clean and structured GUI built with Streamlit.
 
 ## ✨ Features
 
