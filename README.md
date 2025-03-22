@@ -30,7 +30,7 @@ GROQ_API_KEY=your_api_key_here
 ```bash 
 streamlit run app.py
 ```
-🛠️ Project Structure
+##🛠️ Project Structure
 ```graphql
 ├── app.py               # Main Streamlit application
 ├── xml_parser.py        # XML parsing and data extraction
@@ -41,7 +41,7 @@ streamlit run app.py
 ├── .env.example         # Sample environment variable file
 └── README.md            # Project documentation
 ```
-🔍 Example Usage
+##🔍 Example Usage
 Upon running the application, the parsed XML data will be displayed with details such as:
 
 - **Tender Title**
@@ -54,21 +54,12 @@ Upon running the application, the parsed XML data will be displayed with details
 
 - **CPV Codes**
 
-Tender Description
+- **Tender Description**
 
 Users can also interact with the LLM-powered Q&A feature to extract insights from the parsed data.
 
-⚠️ Handling Missing Data
+##⚠️ Handling Missing Data
 If the requested information is missing from the XML file, the system will return:
 
-"N/A" or "Insufficient data available" instead of blank responses.
-
-Ensures robustness and prevents errors during data retrieval.
-
-🚀 Future Enhancements
-Support for multiple XML file formats.
-
-Improved filtering and search options.
-
-Multi-language support for extracted data.
+- **"N/A" or "Insufficient data available" instead of blank responses.**
 
